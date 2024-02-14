@@ -10,12 +10,10 @@ html{
 }
 .profile{
   background: whitesmoke;
-  width: 85%;
+  width: 100%;
   max-width: 720px;
   border-radius: 10px;
   margin: auto;
-  margin-top: 50px;
-  margin-bottom: 30px;
   padding-bottom: 15px;
 }
 .profilebackground{
