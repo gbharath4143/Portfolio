@@ -39,6 +39,11 @@ html{
   margin: auto;
 }
 .caps{
+  width: max-content;
+  padding: 3px 5px 3px 5px;
+  margin: 5px;
+  background: whitesmoke;
+  border-radius: 10px;
   font-size: 12px;
   color: gray;
 }
@@ -49,7 +54,7 @@ html{
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  padding: 10px 0px 10px 0px;
+  padding: 0px 0px 10px 0px;
   border-radius: 12px;
 }
 .brand{
@@ -69,6 +74,10 @@ html{
 .description{
   width: 100%;
   margin: 0px 0px 0px 20px;
+}
+.technicalskilldescription,.softskilldescription{
+  width: 50%;
+  height: auto;
 }
 .js{
   padding: 2px 0px 2px 0px;
