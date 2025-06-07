@@ -15,9 +15,9 @@ const workExperience = [
 
 const projects = [
   {
-  "title": "Hydroponic Farming using ML | Final Year Project 2024",
-  "description": "Developed a smart hydroponic farming system using machine learning models to optimize nutrient delivery and improve crop yield.",
-  "github_repo": "https://github.com/gbharath4143/HydroponicsFarmingUsingML"
+  title: "Hydroponic Farming using ML | Final Year Project 2024",
+  description: "Developed a smart hydroponic farming system using machine learning models to optimize nutrient delivery and improve crop yield.",
+  github_repo:"GitHub repo https://github.com/gbharath4143/HydroponicsFarmingUsingML"
 },
   {
     title: "Smart Room Light System | ICETECH 2022",
@@ -76,11 +76,12 @@ function renderSection(containerId, sectionTitle, entries) {
   if (!container) return;
 
   container.innerHTML = `<h4 class="section-title">${sectionTitle}</h4>`;
-  entries.forEach(({ title, description }) => {
+  entries.forEach(({ title, description,github_repo}) => {
     const entryHTML = `
       <div class="entry">
         <h2 class="entry-title">${title}</h2>
         <p class="entry-description">${description}</p>
+        <p class="entry-description">${github_repo}</p>
       </div>`;
     container.innerHTML += entryHTML;
   });
