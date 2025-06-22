@@ -3,7 +3,11 @@
   text-decoration: none;
   scrollbar-width: none;
 }
-
+@font-face {
+  font-family: 'Roboto';
+  src: url('path-to-roboto.woff2') format('woff2');
+  font-display: swap;
+}
 html {
   min-height: 100%;
   background: #f5f0e6; /* soft beige background */
